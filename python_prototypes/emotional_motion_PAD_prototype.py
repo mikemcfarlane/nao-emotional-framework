@@ -70,25 +70,36 @@ class motion_module(ALModule):
         # Torso position (hip pitch, ankle pitch, shoulder pitch) = proportional to dominance AND pleasure
         # Shoulders have a pitch of +2 to -2 radians.
         # Used in absolute mode, central pitch value is 1.45726radians.
-        shoulder_pitch_dominance = 1.45726 - dominance * 0.5
-        shoulder_pitch_pleasure = 1.45726 - pleasure * 0.5
-        shoulder_pitch = shoulder_pitch_dominance + shoulder_pitch_pleasure
+        shoulder_pitch_position_default = 1.45726
+        shoulder_pitch_range = 0.5
+        shoulder_pitch_scaled_to_dominance = dominance * shoulder_pitch_range
+        shoulder_pitch_scaled_to_pleasure = pleasure * shoulder_pitch_range
+
+        shoulder_pitch_dominance = shoulder_pitch_position_default - shoulder_pitch_scaled_to_dominance
+        shoulder_pitch_pleasure = shoulder_pitch_position_default - shoulder_pitch_scaled_to_pleasure
+        shoulder_pitch = (shoulder_pitch_dominance + shoulder_pitch_pleasure) / 2
         # TODO: does shoulder_pitch need limited?
+        # TODO: correct shoulder_pitch algorithm as ankle_pitch
 
         motion_names.append("LShoulderPitch")
         motion_times.append([t1, t2, t3])
-        motion_keys.append([1.45726, shoulder_pitch, 1.45726])
+        motion_keys.append([shoulder_pitch_position_default, shoulder_pitch, shoulder_pitch_position_default])
 
         motion_names.append("RShoulderPitch")
         motion_times.append([t1, t2, t3])
-        motion_keys.append([1.45726, shoulder_pitch, 1.45726])
+        motion_keys.append([shoulder_pitch_position_default, shoulder_pitch, shoulder_pitch_position_default])
 
         # Ankles have a pitch of approx +0.9 to -1.1radians.
         # Used in absolute mode, central pitch value is 0.08radians.
+        # Scaled: current dominance / max dominance = current range / max range
         ankle_pitch_position_default = 0.06
-        ankle_pitch_dominance = ankle_pitch_position_default - dominance * 0.05
-        ankle_pitch_pleasure = ankle_pitch_position_default - pleasure * 0.05
-        ankle_pitch = ankle_pitch_dominance + ankle_pitch_pleasure
+        ankle_pitch_range = 0.1
+        ankle_pitch_range_scaled_to_dominance = dominance * ankle_pitch_range 
+        ankle_pitch_range_scaled_to_pleasure = pleasure * ankle_pitch_range
+
+        ankle_pitch_dominance = ankle_pitch_position_default - ankle_pitch_range_scaled_to_dominance
+        ankle_pitch_pleasure = ankle_pitch_position_default - ankle_pitch_range_scaled_to_pleasure
+        ankle_pitch = (ankle_pitch_dominance + ankle_pitch_pleasure) / 2
         # Limit ankle pitch to prevent falls
         ankle_pitch_limit = 0.12
         if ankle_pitch > ankle_pitch_limit:
@@ -115,10 +126,10 @@ class motion_module(ALModule):
         # Stance openness (shoulder roll) = proportional to pleasure
         # Shoulder roll ranges -1.3265 to 0.3142radians.
         # Used in absolute mode, central roll value is right -0.16radians, left 0.16radians.
-        shoulder_roll_move = 0.1
+        shoulder_roll_move = 0.3
 
         shoulder_roll_right = -0.16 - shoulder_roll_move * pleasure
-        shoulder_roll_left = 0.16 - shoulder_roll_move * pleasure
+        shoulder_roll_left = 0.16 + shoulder_roll_move * pleasure
 
         motion_names.append("RShoulderRoll")
         motion_times.append([t1, t2, t3])
@@ -194,9 +205,9 @@ def main():
     emotion_motion = motion_module("emotion_motion")
 
     # set some ALMemory values
-    pleasure = 1.0
-    arousal = 1.0
-    dominance = 1.0
+    pleasure = -1.0
+    arousal = -1.0
+    dominance = -1.0
     current_emotion = [(pleasure, arousal, dominance)]
     memory.insertData("Emotion/Current", current_emotion)
 
