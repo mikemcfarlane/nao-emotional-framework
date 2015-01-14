@@ -1,0 +1,1236 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new_",
+				"new_arousal"
+			],
+			[
+				"old_",
+				"old_arousal"
+			],
+			[
+				"current_e",
+				"current_emotion"
+			],
+			[
+				"current_emotion",
+				"current_emotion_name"
+			],
+			[
+				"setV",
+				"setVolume	ALTextToSpeechProxy	AUDIO"
+			],
+			[
+				"speech_para",
+				"speech_parameter_scaling_value"
+			],
+			[
+				"fade",
+				"fadeRGB	ALLeds	SENSORS"
+			],
+			[
+				"unsub",
+				"unsubscribeToEvent	ALMemoryProxy	CORE"
+			],
+			[
+				"LED_ey",
+				"LED_eyes_module"
+			],
+			[
+				"LED_",
+				"LED_eyes_module"
+			],
+			[
+				"stiffness",
+				"stiffnesses"
+			],
+			[
+				"timeList",
+				"timeLists"
+			],
+			[
+				"eas",
+				"easyUnsubscribeEvents  (function)"
+			],
+			[
+				"player",
+				"playerNAO  (variable)"
+			],
+			[
+				"curr",
+				"currentTfBalancer  (variable)"
+			],
+			[
+				"currentT",
+				"currentTfHitter  (variable)"
+			],
+			[
+				"current",
+				"currentTfLeft  (variable)"
+			],
+			[
+				"currentTf",
+				"currentTfRight  (variable)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"my",
+				"my_file_lines"
+			],
+			[
+				"val",
+				"value3"
+			],
+			[
+				"AXIS_M",
+				"AXIS_MASK_VEL  (variable)"
+			],
+			[
+				"r2_c",
+				"r2_c4  (variable)"
+			],
+			[
+				"wbEna",
+				"wbEnableBalanceConstraint	ALMotionProxy	MOTION"
+			],
+			[
+				"currentTf_le",
+				"currentTf_left_old"
+			],
+			[
+				"matrixT",
+				"matrixTf_old"
+			],
+			[
+				"b",
+				"bIsRunning  (variable)"
+			],
+			[
+				"F",
+				"subscribeEventsForStop  (function)"
+			],
+			[
+				"sub",
+				"subscribeEventsForStop  (function)"
+			],
+			[
+				"MarkovTickle",
+				"MarkovTickleStop"
+			],
+			[
+				"subscribe",
+				"subscribeToEvent	ALMemoryProxy	CORE"
+			],
+			[
+				"easySubsc",
+				"easySubscribeEventsLeft"
+			],
+			[
+				"easy",
+				"easyUnsubscribeEventsRight  (function)"
+			],
+			[
+				"leftHand",
+				"leftHandFlag"
+			],
+			[
+				"leftHAnd",
+				"leftHandFlag"
+			],
+			[
+				"subscriptionList",
+				"subscriptionListRight"
+			],
+			[
+				"set",
+				"setParameter	ALSoundDetection	AUDIO"
+			],
+			[
+				"e",
+				"eventLock  (variable)"
+			],
+			[
+				"gameWi",
+				"gameWinPraise  (function)"
+			],
+			[
+				"bodyLanguage",
+				"bodyLanguageModeConfig"
+			],
+			[
+				"play",
+				"playFile	ALAudioPlayerProxy	AUDIO"
+			],
+			[
+				"game",
+				"gameLostDictionary  (variable)"
+			],
+			[
+				"gameWin",
+				"gameWinAnimationDictionary  (variable)"
+			],
+			[
+				"st",
+				"stopSpeechRecognition  (function)"
+			],
+			[
+				"your",
+				"yourGamecode  (variable)"
+			],
+			[
+				"yourGame",
+				"yourGamecodeCounter  (variable)"
+			],
+			[
+				"tickle",
+				"tickleCounter  (variable)"
+			],
+			[
+				"invite",
+				"inviteToTickle  (function)"
+			],
+			[
+				"currentSta",
+				"currentStateTickleAgain  (variable)"
+			],
+			[
+				"curre",
+				"currentStateTickleAgain  (variable)"
+			],
+			[
+				"transition",
+				"transitionMatrixTickleAgain  (variable)"
+			],
+			[
+				"tickleSuccess",
+				"tickleSuccessPreDictionary  (variable)"
+			],
+			[
+				"trans",
+				"transitionMatrixTickleSuccessPost  (variable)"
+			],
+			[
+				"transitionMatrix",
+				"transitionMatrixTickleSuccessPost  (variable)"
+			],
+			[
+				"multi",
+				"multiprocessing  (directory)"
+			],
+			[
+				"getE",
+				"getEventHistory	ALMemoryProxy	CORE"
+			],
+			[
+				"getEvent",
+				"getEventList	ALMemoryProxy	CORE"
+			],
+			[
+				"LEDGroup",
+				"LEDGroupName"
+			],
+			[
+				"tran",
+				"transitionMatrixAction  (variable)"
+			],
+			[
+				"doubleVoice",
+				"doubleVoiceLevel"
+			],
+			[
+				"Mar",
+				"MarkovTickleModule  (class)"
+			],
+			[
+				"ma",
+				"MarkovTickleModule  (class)"
+			],
+			[
+				"assertGreate",
+				"assertGreaterEqual  (function)"
+			],
+			[
+				"leftArmMovement",
+				"leftArmMovementList4"
+			],
+			[
+				"getAva",
+				"getAvailableVoices	ALTextToSpeechProxy	AUDIO"
+			],
+			[
+				"sayPhras",
+				"sayPhrase2"
+			],
+			[
+				"soundLocal",
+				"SoundLocalization"
+			],
+			[
+				"subscribeT",
+				"subscribeToEvent	ALMemoryProxy	CORE"
+			],
+			[
+				"car",
+				"carReport  (function)"
+			],
+			[
+				"atan",
+				"atan2  (function)"
+			],
+			[
+				"move",
+				"moveTo	ALMotionProxy	MOTION"
+			],
+			[
+				"setParameter",
+				"setParameter	ALSoundDetection	AUDIO"
+			],
+			[
+				"subscribeTo",
+				"subscribeToMicroEvent	ALMemoryProxy	CORE"
+			],
+			[
+				"AL",
+				"ALBroker  (class)"
+			],
+			[
+				"awareness",
+				"awarenessRunning"
+			],
+			[
+				"Sound",
+				"SoundLocated	AUDIO	 EVENT"
+			],
+			[
+				"methodToCall",
+				"methodToCallName"
+			],
+			[
+				"romanNumeral",
+				"romanNumeralPattern"
+			],
+			[
+				"setPar",
+				"setParameter	ALAudioDeviceProxy	AUDIO"
+			],
+			[
+				"gethostby",
+				"gethostbyaddr"
+			],
+			[
+				"def",
+				"def	Function"
+			],
+			[
+				"setVo",
+				"setVocabulary	ALSpeechRecognitionProxy	AUDIO"
+			],
+			[
+				"subsc",
+				"subscribeToEvent	ALMemoryProxy	CORE"
+			],
+			[
+				"robotState",
+				"robotStateList  (variable)"
+			],
+			[
+				"VISION",
+				"enableRecognition	ALFaceDetectionProxy	VISION"
+			],
+			[
+				"bodyMoveme",
+				"bodyMovementMatrixTickleMain"
+			],
+			[
+				"bodyMove",
+				"bodyMovementMatrixTickleMain"
+			],
+			[
+				"robot",
+				"robotStateList  (variable)"
+			],
+			[
+				"handMove",
+				"handMovementStateList"
+			],
+			[
+				"headMoveme",
+				"headMovementMatrixCurrent"
+			],
+			[
+				"headMovement",
+				"headMovementStateList"
+			],
+			[
+				"headMove",
+				"headMovementStateList"
+			],
+			[
+				"bodyMovem",
+				"bodyMovementArrayInitial"
+			],
+			[
+				"bodyMoveA",
+				"bodyMovementArrayTickleNotMain"
+			],
+			[
+				"bodyMov",
+				"bodyMovementArrayCurrent"
+			],
+			[
+				"combi",
+				"combinedList2"
+			],
+			[
+				"combine",
+				"combinedList"
+			],
+			[
+				"speechMo",
+				"speechModifierArrayTickleMain"
+			],
+			[
+				"Hand",
+				"HandRightBackTouched	SENSORS	 EVENT"
+			],
+			[
+				"subscri",
+				"subscribeToEvent	ALMemoryProxy	CORE"
+			],
+			[
+				"unsubscribe",
+				"unsubscribeToEvent	ALMemoryProxy	CORE"
+			],
+			[
+				"subs",
+				"subscribeToEvent	ALMemoryProxy	CORE"
+			],
+			[
+				"file_contents",
+				"file_contents_no_space"
+			],
+			[
+				"CORE",
+				"unsubscribe	ALExtractor	CORE"
+			],
+			[
+				"events_",
+				"events_dictionary"
+			],
+			[
+				"end_",
+				"end_framework"
+			],
+			[
+				"su",
+				"subscribe	ALAudioSourceLocalizationProxy	AUDIO"
+			],
+			[
+				"wbenable",
+				"wbEnableBalanceConstraint	ALMotionProxy	MOTION"
+			],
+			[
+				"facedetect",
+				"learnFace	ALFaceDetectionProxy	VISION"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"subscr",
+				"subscribeCameras	ALVideoDeviceProxy	VISION"
+			],
+			[
+				"ALSE",
+				"subscribe	ALSensorsProxy	SENSORS"
+			],
+			[
+				"MOT",
+				"applyPosture   ALRobotPosture  MOTION"
+			],
+			[
+				"c",
+				"choregraph box	Standard Choregraph box script"
+			],
+			[
+				"stiff",
+				"stiffnessInterpolation"
+			],
+			[
+				"dictiona",
+				"dictionary_loop_index"
+			],
+			[
+				"ar",
+				"argument_list"
+			],
+			[
+				"metho",
+				"methods_dictionary"
+			],
+			[
+				"na",
+				"nao_method"
+			],
+			[
+				"na_me",
+				"nao_method_with_args"
+			],
+			[
+				"nao_method",
+				"nao_method_with_args"
+			],
+			[
+				"method",
+				"methods_dictionary"
+			],
+			[
+				"arg",
+				"argument_list"
+			],
+			[
+				"argument",
+				"argument_list"
+			],
+			[
+				"nao",
+				"nao_trigger"
+			],
+			[
+				"end",
+				"end_text"
+			],
+			[
+				"write",
+				"write"
+			],
+			[
+				"naoqi",
+				"naoqi_sublime_completions"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"spe",
+				"Google Spell Check"
+			],
+			[
+				"spel",
+				"Google Spell Check"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"goo",
+				"Google Spell Check"
+			],
+			[
+				"goog",
+				"Google Spell Check"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Python Markdown: Export HTML in Sublime Text"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Packa",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"clip",
+				"Package Control: List Packages"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jave",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"na",
+				"Set Syntax: naoqi"
+			],
+			[
+				"nao",
+				"Set Syntax: naoqi"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"snipp",
+				"Snippet: Standard Choregraph box script"
+			],
+			[
+				"snip",
+				"Snippet: standard text to describe code to be placed at top of each file"
+			],
+			[
+				"snippe",
+				"Snippet: Standard Choregraph box script"
+			],
+			[
+				"sni",
+				"Snippet: standard text to describe code to be placed at top of each file"
+			],
+			[
+				"sni des",
+				"Snippet: standard text to describe code to be placed at top of each file"
+			],
+			[
+				"sn de",
+				"Snippet: standard text to describe code to be placed at top of each file"
+			],
+			[
+				"sni de",
+				"Snippet: standard text to describe code to be placed at top of each file"
+			],
+			[
+				"snippet",
+				"Snippet: Standard Choregraph box script"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"robo",
+				"Set Syntax: RobotC"
+			],
+			[
+				"naoq",
+				"Set Syntax: naoqi"
+			],
+			[
+				"syn",
+				"Set Syntax: XML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"forma",
+				"Format Code"
+			],
+			[
+				"code",
+				"Format Code"
+			],
+			[
+				"robot",
+				"Set Syntax: RobotC"
+			],
+			[
+				"ROP",
+				"Package Control: Remove Package"
+			],
+			[
+				"for",
+				"Format Code"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"ro",
+				"Rope: Import Assist"
+			],
+			[
+				"syntax py",
+				"Set Syntax: Python"
+			],
+			[
+				"rope",
+				"Rope: Import Assist"
+			],
+			[
+				"synta py",
+				"Set Syntax: Python"
+			],
+			[
+				"syn p",
+				"Set Syntax: Python"
+			],
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 584.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/Security/iProov_security.md",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/Continuous_Integration/continuous_integration.md",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/CUDA_virtualisation/CentOS_installation_notes.md",
+		"/Users/mikemcfarlane/.bash_profile",
+		"/Users/mikemcfarlane/Dropbox/iProov/1Password/iProov secure information recovery strategy.md",
+		"/Volumes/DiskStation/Software/Mac_programs/krpano/autotour_creation_info/centenary.xml",
+		"/Users/mikemcfarlane/pwmconfig",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/Security/UPS.md",
+		"/Users/mikemcfarlane/Documents/Repositories/iproov/Controller/diffmorph_encoder_queue_manager.py",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/Project_management/Agile_Scrum_stuff.md",
+		"/Users/mikemcfarlane/Downloads/ldap.conf",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/Windows_Server_VM/Windows_Server_VM.md",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/CUDA_virtualisation/minimal_ks.cfg",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/CUDA_virtualisation/dev3-iproov-com_setup.md",
+		"/Users/mikemcfarlane/Desktop/Tees_Valley/GPS/Tees_Valley_GPS.md",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/Continuous_Integration/GitHub.md",
+		"/Users/mikemcfarlane/.ssh/known_hosts",
+		"/Users/mikemcfarlane/Documents/Repositories/iproov/experimental_code/MikeMcF/readme.txt",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/continuous_integration.md",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/CUDA_virtualisation/Continuous_integration.md/untitled",
+		"/Users/mikemcfarlane/Desktop/ks6.cfg",
+		"/Users/mikemcfarlane/Desktop/virt-install_console_output.txt",
+		"/Volumes/DiskStation/WT_tours/2014/Northumberland/Kielder/GPS/Kielder_GPS.md",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Python/Dive into Python/odbchelper.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Python/Dive into Python/openAnything.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Python/Dive into Python/fileinfo.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Python/Dive into Python/apihelper.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_motion_PAD_prototype.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_outputs.sublime-project",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_eyes_VA_prototype.py",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/Google_admin/Google_admin_setup.md",
+		"/Users/mikemcfarlane/Dropbox/iProov/Data/2014/CUDA_virtualisation/CUDA_virtualisation_notes.md",
+		"/Volumes/DiskStation/WT_tours/2014/Gwent/Magor_Marshes/GPS/Magor_Marshes_GPS.md",
+		"/Volumes/DiskStation/WT_tours/2014/Birmingham_Black_Country/Sedgley_Beacon/GPS/Sedgley_Beacon_GPS.md",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_model_VA_linked_emotional_demo.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_speech_VA_prototype.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_motion_prototype.py",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike/Docs/2014/OS_X_re-install.md",
+		"/Users/mikemcfarlane/Library/Preferences/com.apple.iApps.plist",
+		"/Users/mikemcfarlane/Dropbox/Data/robotguide/Docs/2014/UKNAO_2015_event_ideas.md",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/qibuild_setup.md",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/animated-speech.cpp",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/main.cpp",
+		"/Volumes/DiskStation/Videos/NAOCONF/Slides/NAOCONF_talks_list.md",
+		"/Volumes/DiskStation/Videos/NAOCONF/Slides/Celine_notes.txt",
+		"/Volumes/DiskStation/Videos/NAOCONF/Slides/NAOCONF_talks_list",
+		"/Users/mikemcfarlane/Dropbox/Apps/Computable/123.csv",
+		"/Users/mikemcfarlane/.ssh/config",
+		"/Users/mikemcfarlane/.ssh/id_rsa_ftp.pub",
+		"/Users/mikemcfarlane/.ssh/id_rsa.pub.old",
+		"/Users/mikemcfarlane/.ssh/id_rsa",
+		"/Users/mikemcfarlane/.ssh/id_rsa.pub",
+		"/Users/mikemcfarlane/id_rsa",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/.gitignore",
+		"/Users/mikemcfarlane/Desktop/emotional_framework_notes.md",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/VA_based_UI.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_demo.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_eyes_prototype.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_speech_prototype.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/simple_head_motion_Choregraph_export.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Code_sprints/Kivy/almotion_wbMultipleEffectors.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Code_sprints/Kivy/almotion_hulaHoop.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Code_sprints/Kivy/almotion_cartesianTorsoArm1.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Code_sprints/Kivy/almotion_hulaHoop_complete.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/VA_mapping_fundamentals_demo.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/speech.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/emotional_speech.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/python_prototypes/LEDs_eye_colour.py",
+		"/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.plist",
+		"/Volumes/DiskStation/WT_tours/2014/Durham/Durham_Heritage_Coast/GPS/Durham_Heritage_Coast.md",
+		"/Volumes/DiskStation/WT_tours/2014/Avon/Somerset_Levels/GPS/Somerset_Levels.md",
+		"/Volumes/DiskStation/WT_tours/2014/Notts/sound_edit/Rainworth_Heath.txt",
+		"/Volumes/DiskStation/WT_tours/2014/Notts/GPS/Rainworth_Heath_GPS.md",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/TickleMeNAO/Markov_tickles.py",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike_&_Suse/Buy_house/Our_correspondence/Low_boundary_reasons_to_object.md",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike_&_Suse/Buy_house/Cavendish/Cavendish_Q_2.txt",
+		"/Volumes/DiskStation/WT_tours/2014/Cornwall/Sancreed_Beacon/GPS/Sancreed_Beacon.md",
+		"/Volumes/DiskStation/WT_tours/2014/Devon/Hatherleigh_Moor/GPS/Hatherleigh_Moor_GPS.md",
+		"/Volumes/DiskStation/WT_tours/2014/Cornwall/Sancreed_Beacon/sound_edit/note_on_sound.txt",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/TickleMeNAO/Idea_Development/tickle_eyes.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/TickleMeNAO/Idea_Development/almotion_wbMultipleEffectors.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/TickleMeNAO/Idea_Development/visual_panorama.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/TickleMeNAO/Idea_Development/basic_awareness.py",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike/Docs/The_Academy_website/About_The_Academy_Residents_Association.md",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike/Docs/The_Academy_website/The_Academy_history.md",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike/Docs/The_Academy_website/The_Academy_info.md",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike/Docs/The_Academy_website/The_Academy_buying_a_new_build_house.md",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike_&_Suse/Buy_house/Our_correspondence/durkan_draft.txt",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/make-local.sh",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/leds.cpp",
+		"/Users/mikemcfarlane/Downloads/Emotional_expression_with_NAO_guide_document/Emotional_expression_with_NAO_guide_document.html",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/leds.h",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/.git/config",
+		"/Users/mikemcfarlane/Desktop/NAOCONF_logo_idea_1_logo_only.svg",
+		"/Users/mikemcfarlane/.profile",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/animated-speech.h",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/tts.cpp",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/motion.cpp",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/tts.h",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/CMakeLists.txt",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/nao-emotional-framework/motion.h",
+		"/Users/mikemcfarlane/Desktop/motion.cpp",
+		"/Users/mikemcfarlane/Desktop/motion.h",
+		"/opt/pynaoqi-python2.7-2.1.0.19-mac64/motion.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/TickleMeNAO/Writeup/Tickling a NAO robot.md",
+		"/Users/mikemcfarlane/Dropbox/Data/robotguide/Content/Articles/Tickling a NAO robot.md",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/TickleMeNAO/touch_test.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/NAO/TickleMeNAO/test.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Local/NAO/Mike_learning/xtion_text.py",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Code_sprints/Kivy/NAOPong.kv",
+		"/Users/mikemcfarlane/Dropbox/Code/Repositories/Code_sprints/Kivy/nao_pong.py",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike/Jobs/old/Mike_McFarlane_CV.txt",
+		"/Volumes/DiskStation/WT_tours/2014/Essex/Layer_Breton_Heath/GPS/Layer_Breton_GPS.md",
+		"/Volumes/DiskStation/WT_tours/2014/North_Wales/Alun_and_Wheeler/GPS/Alun_and_Wheeler_GPS.md",
+		"/Volumes/DiskStation/WT_tours/2014/Cumbria/Eycott_Hill/GPS/Eycott_Hill_GPC.md",
+		"/Users/mikemcfarlane/Dropbox/Data/Mike_McFarlane_Photography/Data/2014/WT_aerial_film_and_photography_by_drone_proposal.md",
+		"/Users/mikemcfarlane/Desktop/test.html",
+		"/Users/mikemcfarlane/Desktop/WT_aerial_film_and_photography_by_drone_proposal.html",
+		"/Users/mikemcfarlane/Desktop/WT_aerial_film_and_photography_by_drone_proposal.md",
+		"/Users/mikemcfarlane/Dropbox/Data/robotguide/Clients/NAOCONF/wordpress_themes.md",
+		"/Volumes/DiskStation/WT_tours/2014/Sheffield/Centenary_riverside/GPS/Centenary_riverside_GPS.md",
+		"/Volumes/DiskStation/WT_tours/2014/Surrey/Priest_Hill/GPS/Priest_Hill_GPS.md",
+		"/Users/mikemcfarlane/Desktop/Priest_Hill_GPS.md",
+		"/Users/mikemcfarlane/Dropbox/Data/robotguide/Docs/2014/NAO_after_sales_training_proposal.md",
+		"/Users/mikemcfarlane/Dropbox/Data/robotguide/Clients/NAOCONF/Bruno_invite.md",
+		"/Users/mikemcfarlane/Dropbox/Mike_McFarlane_Photography/Data/2014/WT_aerial_film_and_photography_by_drone_proposal.md",
+		"/Volumes/Old1Pass/Suse.txt",
+		"/Users/mikemcfarlane/Dropbox/Code/Local/NAO/Mike_learning/hello_pepper.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sh",
+			"readlink",
+			"yum",
+			"static",
+			"nomsi",
+			"scp",
+			"ENVIR",
+			"yum",
+			"LD_LIBRA",
+			"environ",
+			"environem",
+			"LD_LIBRARY_PATH",
+			"modprobe",
+			"msi",
+			"lspci",
+			"msi",
+			"nvidia",
+			"mbr",
+			"update",
+			"usr",
+			"mdadm",
+			"user",
+			"ssh",
+			"GRUB",
+			"lspci",
+			"serial",
+			"[(valence, arousal), (\"valence_mood\", \"arousal_mood\"), (\"personality\"), (key, \"param2\")]",
+			"[1, 2, 3]",
+			"TouchChanged",
+			" ",
+			"   ",
+			"    ",
+			"   ",
+			"    ",
+			"   ",
+			"    ",
+			"')",
+			"('",
+			"f",
+			"e",
+			"d",
+			"c",
+			"b",
+			"a",
+			"()",
+			".",
+			"wait",
+			"convert",
+			",,,",
+			"'''",
+			"3399FF",
+			"28805d",
+			"link",
+			"ALAnimatedSpeechProxy::",
+			"ALTextToSpeechProxy::",
+			"setReturn(\"return\", \"\");",
+			"functionName(\"name\", getName(), \"descr",
+			"ALMotionProxy::",
+			"post",
+			"http",
+			"1.22",
+			"playSound",
+			"voice",
+			"memoryStop",
+			"getData",
+			"defaultPose",
+			"postu",
+			"iAmBe",
+			"Stand",
+			"defaultPose",
+			"stopSpeechRecognition",
+			"you touched",
+			"HandRightBackTouched",
+			"TouchChanged",
+			"unSubscribeEventsForStop",
+			"------",
+			"pri",
+			"wait",
+			"@media",
+			"isBallInPlay",
+			"False",
+			"startwbBalancer",
+			"self.iswbBalancerEnabled",
+			"iswbBalancerEnabled",
+			"currentTfLeft",
+			"ball.isBallInPlay",
+			"stopwbBalancer",
+			"print",
+			"global",
+			"python",
+			"beauiful",
+			"conenctivity",
+			"# Aerial film and photography by drone project proposal #\n\n## Outline ##\n\nAerial film and photography offers a unique and beautiful view of the world in which we live. Recent advances in radio controlled multi-copter drones coupled to high quality digital cameras offers the ability to create beautiful and never seen before high quality aerial imagery in a more initmate way with minimal disturbance and significantly lower cost than traditional aerial footage.\n\nHaving spent over a year full time exploring and producing virtual tours of The Wildlife Trusts Living Landscapes I've built up a unique knowledge and feeling for the power of Living Landscapes. The connectivity of people to the landscape. The conenctivity of wildlife as it moves through the landscape. The need to better understant that conenctivity and the landscape. The connectivity of partners to the landscape. All these can be shown through the birds eye view of aerial imagery creating beautiful imagery that will wow and inform partners and communities and form a unique visual record for conservationists and future generations.\n\n## Backgound research ##\n\nWhilst visiting Norfolk and Sussex Wildlife Trusts I raised the concept of aerial imagery. Both Trusts representatives immediately got the concept, and more importantly loved it and saw the power of such imagery to convey messages and inform knowledge and conservation efforts. Some particular comments:\n\n\"I've seen drone footage and it is really shakey!\" - The cutting edge of drones now use GPS and camera stabilisers to allow the capture of sharp imagery, both still and video.\n\n\"I need to convey the scale of our river catchment area.\" - Imagine a film flying along and through the length of that river valley.\n\n\"Local partners have very mixed views and we have come to a standstill\" - Imagine having views over the large parts of a landscape that show it's variety and how the whole plan fits together.\n\n\n## Some examples of beautiful drone footage ##\n\n+ [Steamers Lane & Natural Bridges](https://www.youtube.com/watch?v=vfV4ykwBaqA)\n+ [Neuschwanstein](http://vimeo.com/83186544)\n+ [TEATIME in London](https://www.youtube.com/watch?v=ghDXBIy_BSM)\n\n## Team ##\n\n+ [Mike McFarlane](http://www.mikemcfarlane.co.uk): pilot, photography, video and project management.\n+ [Joe Brett](http://josephbrett.wordpress.com): TBC?? An experienced creative and video editor.\n\nMike brings a proven record in creating unique and beauiful imagery of Living Landscapes coupled to a willingness and drive to ensure projects happen as discussed. Along with knowledge and established working relationships with all 47 local Wildlife Trusts. All delivered with high value and a low carbon footprint through use of public transport and bike.\n\n\n## Some project ideas ##\n\n### 1. Individual approach to each local Trust ###\n\nWe would approach each Trust and present the idea to them.\n\n+ Deliverables: negotiable. \n+ Funding: local Trust.\n+ Estimated costs:\n    + Imagery capture: £500/day plus travel and accomodation costs. Estimate 1-2 days required per location.\n    + Video production: £???/day plus costs. Estimate ?? days per film.\n    + Other costs as required e.g. imagery asset transfer via physical media or online transfer, custom branding.\n+ Timescales: negotiable, would be available to start September 2014 onwards.\n\n\n### 2. Nationally coordinated project with local Trust deliverables ###\n\nWorking with national coordination and producing aerial imagery for each local Trust that they can use in visitor centres, presentations, funding bids and websites. \n\n+ Deliverables: \n    + 2-5 minute edited film of a Living Landscape themed to the local Trust using existing branding.\n    + copy of all raw imagery.\n    + a selection of still images chosen for aesthetic or survey value as discussed with each Trust.\n    + informal social media publicity.\n    + survey (optional): additional time could be spent with a Trust performing an aerial survey of a site.\n+ Funding: combination of national and local.\n+ Estimated costs:\n    + Imagery capture: £500/day plus travel and accomodation costs. Estimate 1-2 days required per location.\n    + Survey: £500/day plus travel and accomodation if seperate visit required.\n    + Video production: £???/day plus costs. Estimate ?? days per film.\n    + Publicity: included as part of package.\n    + Project managment: £400/day, estimate one week.\n    + Other costs as required e.g. imagery asset transfer via physical media or online transfer, custom branding.\n+ Timescales: negotiable, would be available to start September 2014 onwards, estimated completion September 2015 dependent on number of Trusts involved.\n\n\n### 3. Nationally coordinated project with local and national Trust deliverables ###\n\nWorking with national coordination producing aerial imagery for each local Trust and a dedicated nationally themed video summarsing all Living Landscapes.\n\n+ Deliverables: \n    + 2-5 minute edited film of a Living Landscape for each local Trust, \n    + 2-30 minute film for national use using a custom theme branded to national Trust requirements, \n    + copy of all raw imagery with suitable cataloguing allowing re-use, \n    + selection of still images chosen for aesthetic or survey value, \n    + coordinated social media and publicity campaign, \n    + support in seeking funding from partners if required, \n    + project management. \n+ Funding: national.\n+ Estimated costs:\n    + Imagery capture: £500/day plus travel and accomodation costs. Estimate 1-2 days required per location.\n    + Local trust video production: £???/day plus costs. Estimate ?? days per film.\n    + National video production: £???/day plus costs of additional assets or services. Estimate ?? days.\n    + Publicity: included as part of package.\n    + Project managment: £400/day, estimate one week to setup.\n    + Custom branding: TBC, further discussion required.\n    + Additional assets or services e.g. voiceover, music rights: TBC, further discussion required.\n    + Cataloguing: TBC, estimate a few days work plus appropriate license costs if any software required.\n    + Other costs as required e.g. imagery asset transfer via physical media or online transfer.\n+ Timescales: negotiable, would be available to start September 2014 onwards, estimated completion of imagery capture and local Trust videos September 2015 dependent on number of Trusts involved. Estimated delivery of final national video late 2015, sub-edits could be avaialbe throughout the project.\n\n\n__OTHER COSTS TO CHECK__\n\n+ Training costs.\n+ CAA license.\n+ Media storage.\n+ Initial equipment outlay.\n+ Professional indeminity insurance.\n+ Public libaility insurance.\n+ Equipment insurance.\n\n\n## Legal ##\n\nAerial drones are an emerging technology with the legal framework surrounding their commercial use still evolving. We endeveour to:\n\n+ Fly responsibly with respect for people, landscape and wildlife.\n+ Undertake necessary accredited training.\n+ Aquire any mandated certification e.g. Civil Aviation Authority.\n+ Use appropriate professional indemnity and public liability insurance.\n\n\n## Further info ##\n\nPrepared by Mike McFarlane 03 June 2014.\n\n07557 850 175\n\n[mike@mikemcfarlane.co.uk](mailto:mike@mikemcfarlane.co.uk)\n\n[www.mikemcfarlane.co.uk](http://www.mikemcfarlane.co.uk)\n\n\n\n\n\n\n",
+			"voice",
+			"robotMotion",
+			"player_nao",
+			"Lock",
+			"self.invite",
+			"motionEnabled",
+			"self.bIsRunning",
+			"alive",
+			"isAlive",
+			"self.log",
+			"tickleTargetDictionary",
+			"tickleTarget",
+			"tickleTargetDictionary",
+			"rightArmMovementList",
+			"rightArmMovementList1",
+			"mtmd",
+			"play",
+			"defaultP",
+			"play",
+			"player2",
+			"voice",
+			"print",
+			"self.ids",
+			"animatedSpeechProxy.say",
+			"goToPosture",
+			"gotoposture",
+			"fractionMaxSpeed",
+			"goToPosture",
+			"self.iAmBeing",
+			"self.iAmbeing",
+			"self.inviteToTickle()",
+			"find",
+			"codeRecog",
+			"codeRecod",
+			"inviteToTickleDictionary"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"[valence, arousal]",
+			"[0.5, 2, 4]",
+			"MiddleTactilTouched",
+			"",
+			")",
+			"(",
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"('')",
+			",,",
+			"0066FF",
+			"3399FF",
+			"",
+			"functionName(\"name\", getName(), \"description\");",
+			"",
+			"HandRightLeftTouched",
+			"HandRightBackTouched",
+			"motionProxy",
+			"playerNAO",
+			"print",
+			"self",
+			"player_nao",
+			"animatedSpeechProxy",
+			"animateSpeechProxy",
+			"]],",
+			"],",
+			"\",",
+			"[",
+			"bel_xt_1_isClosed",
+			"bel_xt_1_isOpen",
+			"RGBColourDictionary",
+			"ledProxy",
+			"keysMotion",
+			"timesMotion",
+			"namesMotion",
+			"numWordsPerTickle",
+			"],",
+			"\",",
+			"[",
+			"],",
+			"\",",
+			"",
+			"[",
+			"self.currentStateWord",
+			"easyUnsubscribeEvents",
+			"easySubscribeEvents",
+			"do_sound_located",
+			"setup_sound_localization",
+			"setup_proxies",
+			"self.getName()",
+			"\"whereIs\"",
+			"faceSize",
+			"\"MarkovTickle\"",
+			"MarkovTickle",
+			"\"MarkovTickle\"",
+			"MarkovTickle",
+			"self, key, value, msg",
+			"\"markovTickle\"",
+			"markovTickle",
+			"robotMotionProxy",
+			"leftArmProxy",
+			"rightArmProxy",
+			"leftArmProxy",
+			"bodyProxy",
+			"speechProxy",
+			"memory",
+			"print",
+			"roman",
+			"WordRecognized",
+			"errorString = \"Error was: \" + e\n			self.log(errorString)",
+			"Current",
+			"Matrix",
+			"0.2",
+			"Matrix",
+			"matrix",
+			"Initial",
+			"speechProxy",
+			"self.getName()",
+			"frontSensorTouched",
+			"SensorEvent",
+			"SensorEventModule",
+			"0",
+			"print"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true
+}
