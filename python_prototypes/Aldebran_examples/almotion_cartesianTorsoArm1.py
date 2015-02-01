@@ -16,6 +16,7 @@ def main(robotIP, PORT=9559):
 
     motionProxy  = ALProxy("ALMotion", robotIP, PORT)
     postureProxy = ALProxy("ALRobotPosture", robotIP, PORT)
+    speechProxy = ALProxy("ALTextToSpeech", robotIP, PORT)
 
     # Wake up robot
     motionProxy.wakeUp()
@@ -23,12 +24,13 @@ def main(robotIP, PORT=9559):
     # Send robot to Stand Init
     postureProxy.goToPosture("StandInit", 0.5)
 
-    frame      = motion.FRAME_WORLD
+    frame      = motion.FRAME_ROBOT
     coef       = 0.5                   # motion speed
     times      = [coef, 2.0*coef, 3.0*coef, 4.0*coef]
     useSensorValues = False
 
     # Relative movement between current and desired positions
+    dx         = +0.00                  # translation axis X (meters)
     dy         = +0.03                 # translation axis Y (meters)
     dz         = -0.03                 # translation axis Z (meters)
     dwx        = +8.0*almath.TO_RAD   # rotation axis X (radians)
@@ -39,7 +41,7 @@ def main(robotIP, PORT=9559):
     path = []
     initTf = almath.Transform(motionProxy.getTransform(effector, frame, useSensorValues))
     # point 1
-    deltaTf  = almath.Transform(0.0, -dy, dz)*almath.Transform().fromRotX(-dwx)
+    deltaTf  = almath.Transform(dx, -dy, dz)*almath.Transform().fromRotX(-dwx)
     targetTf = initTf*deltaTf
     path.append(list(targetTf.toVector()))
 
@@ -47,7 +49,7 @@ def main(robotIP, PORT=9559):
     path.append(list(initTf.toVector()))
 
     # point 3
-    deltaTf  = almath.Transform(0.0, dy, dz)*almath.Transform().fromRotX(dwx)
+    deltaTf  = almath.Transform(dx, dy, dz)*almath.Transform().fromRotX(dwx)
     targetTf = initTf*deltaTf
     path.append(list(targetTf.toVector()))
 
@@ -57,6 +59,9 @@ def main(robotIP, PORT=9559):
     axisMask   = almath.AXIS_MASK_ALL  # control all the effector axes
     motionProxy.post.transformInterpolations(effector, frame, path,
                                            axisMask, times)
+    # motionProxy.transformInterpolations(effector, frame, path,
+    #                                        axisMask, times)
+    speechProxy.post.say("Loaded first movement.")
 
     # Motion of Arms with block process
     frame     = motion.FRAME_TORSO
