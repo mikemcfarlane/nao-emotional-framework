@@ -6,6 +6,7 @@ import sys
 import time
 
 import numpy as np
+import math
 
 from naoqi import ALProxy
 from naoqi import ALBroker
@@ -13,7 +14,8 @@ from naoqi import ALModule
 
 from optparse import OptionParser
 
-NAO_IP = "192.168.0.16"
+NAO_IP = "169.254.216.239"
+
 
 # Global variable to store module instances
 emotion_motion = None
@@ -79,7 +81,7 @@ class motion_module(ALModule):
         shoulder_pitch_pleasure = shoulder_pitch_position_default - shoulder_pitch_scaled_to_pleasure
         shoulder_pitch = (shoulder_pitch_dominance + shoulder_pitch_pleasure) / 2
         # TODO: does shoulder_pitch need limited?
-        # TODO: correct shoulder_pitch algorithm as ankle_pitch
+        
 
         motion_names.append("LShoulderPitch")
         motion_times.append([t1, t2, t3])
@@ -114,14 +116,14 @@ class motion_module(ALModule):
         motion_keys.append([ankle_pitch_position_default, ankle_pitch, ankle_pitch_position_default])
 
         # Position on ground = proportional to dominance AND pleasure, only activated by strong values.
-        walk_activation_threshold = (0.8, -0.8)
+        walk_activation_threshold = 0.8
         walk_distance = 0.1 # meters
-        if ((dominance > walk_activation_threshold[0]) or (dominance < walk_activation_threshold[1])):
-            walk = walk_distance
-        elif ((pleasure > walk_activation_threshold[0]) or (pleasure < walk_activation_threshold[1])):
-            walk = walk_distance
-        else:
-            walk = 0
+        if (abs(dominance) > walk_activation_threshold):
+            walk_dominance = math.copysign(walk_distance, dominance)
+        if (abs(pleasure) > walk_activation_threshold):
+            walk_pleasure = math.copysign(walk_distance, pleasure)
+        
+        walk = walk_dominance + walk_pleasure
 
         # Stance openness (shoulder roll) = proportional to pleasure
         # Shoulder roll ranges -1.3265 to 0.3142radians.
