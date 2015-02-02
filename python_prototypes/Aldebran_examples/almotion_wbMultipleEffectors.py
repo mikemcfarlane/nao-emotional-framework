@@ -1,4 +1,4 @@
-# -*- encoding: UTF-8 -*-
+p# -*- encoding: UTF-8 -*-
 
 ''' Whole Body Motion: Multiple Effectors control '''
 
@@ -31,6 +31,7 @@ def main(robotIP, PORT=9559):
     # Enable Whole Body Balancer
     isEnabled  = True
     motionProxy.wbEnable(isEnabled)
+
 
     # Legs are constrained fixed
     stateName  = "Fixed"
